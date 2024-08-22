@@ -663,7 +663,7 @@
 
   /* Basic form
   ============================= */
-  .form {
+  form {
     display: flex;
     flex-direction: column;
     padding: 1rem 0;
@@ -671,7 +671,7 @@
   }
 
     /* Fieldset styles */
-  .fieldset {
+  fieldset {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -680,10 +680,12 @@
   }
 
   /* Label styling */
-  .label {
+  label {
     cursor: pointer;
     display: block;
     white-space: nowrap;
     font-size: 1.4rem;
     padding: 0 0 .5rem;
   }
+
+  
