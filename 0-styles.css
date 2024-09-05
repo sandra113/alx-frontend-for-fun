@@ -1,0 +1,51 @@
+/* General styling for the list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: space-around; 
+}
+
+/* Style for individual list items */
+li {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    position: relative;
+    padding-right: 40px;
+    background-color: #f7f7f7;
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    width: 300px;
+    align-items: center;
+    border: 2px solid grey;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px; 
+}
+
+/* Style for the icon spans */
+.icon {
+    width: 250px;
+    height: 400px;
+    background-image: url("./0-sprite.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+/* Positioning the icons from the sprite */
+li span.i-html {
+    background-position: left center;
+}
+
+li span.i-css {
+    background-position:  center;
+}
+
+li span.i-js {
+    background-position: right center;
+}

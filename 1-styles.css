@@ -1,0 +1,22 @@
+/* Style for the link inside the h2 */
+h2 a {
+    text-decoration: none; /* Hide underline by default */
+    position: relative;
+    color: hsl(0, 60%, 46%);
+}
+
+h2 a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: hsl(0, 60%, 46%); 
+    bottom: -3px; 
+    left: 0;
+    transition: width 0.3s ease; /* Animate width on hover */
+}
+
+/* On hover, show the underline */
+h2 a:hover::after {
+    width: 100%; /* Expand the underline on hover */
+}
