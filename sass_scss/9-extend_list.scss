@@ -1,0 +1,16 @@
+/* styles.scss */
+
+.info {
+    font-size: 12px;
+  }
+  
+  .success {
+    @extend .info;
+    color: #00FF00; // Set text color to green
+  }
+  
+  .warning {
+    @extend .info;
+    color: #FF0000; // Set text color to red
+  }
+  

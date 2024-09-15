@@ -1,0 +1,15 @@
+/* styles.scss */
+
+@mixin horizontal-margin($margin) {
+    margin-left: $margin;
+    margin-right: $margin;
+  }
+  
+  body {
+    @include horizontal-margin(10px);
+  }
+  
+  div {
+    @include horizontal-margin(15px);
+  }
+  

@@ -1,0 +1,17 @@
+/* styles.scss */
+
+// Import color variables from 10-colors.scss
+@import '10-colors';
+
+// Apply colors to classes
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
+}
