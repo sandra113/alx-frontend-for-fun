@@ -1,0 +1,16 @@
+/* styles.scss */
+
+// Define a list of widths corresponding to the column classes
+$widths: (
+  1: 100%,
+  2: 50%,
+  3: 33.3333333333%,
+  4: 25%
+);
+
+// Use @for to generate .col-* classes with dynamic widths
+@for $i from 1 through 4 {
+  .col-#{$i} {
+    width: map-get($widths, $i);
+  }
+}
